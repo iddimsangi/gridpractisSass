@@ -49,6 +49,38 @@
     grid-column: 1/5;
   }
 }
+@media only screen and (max-width:768px){
+  .AppContainer{
+    &-item1 {
+      background-color: brown;
+      grid-row: 3/5;
+    }
+    &-item2 {
+      background-color: burlywood;
+      grid-column: 1/5;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+.AppContainer{
+  &-item1 {
+    background-color: brown;
+    grid-row: 2/4;
+  }
+  &-item2 {
+    background-color: burlywood;
+    grid-column: 2/5;
+  }
+  &-item6 {
+    background-color: darkolivegreen;
+    grid-column: 1/3;
+  }
+  &-item7 {
+    background-color: dimgray;
+    grid-column: 3/5;
+  }
+}
+}
 @media only screen and (max-width: 375px) {
   .AppContainer {
     grid-template-columns: 1fr;
@@ -102,7 +134,5 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
 
-}
 
