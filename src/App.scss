@@ -81,6 +81,27 @@
   }
 }
 }
+@media only screen and (max-width:480px){
+  .AppContainer{
+    grid-template-rows:0.3fr 1.5fr repeat(5, 1fr);
+    &-item1 {
+      background-color: brown;
+      grid-row: 2/6;
+    }
+    &-item3 {
+      grid-column: 2/5;
+    }
+    &-item4 {
+      grid-column: 2/5;
+  
+    }
+    &-item5 {
+      grid-column: 2/5;
+      
+    }
+
+  }
+}
 @media only screen and (max-width: 375px) {
   .AppContainer {
     grid-template-columns: 1fr;
