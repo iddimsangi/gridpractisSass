@@ -17,11 +17,11 @@
   grid-template-rows: .3fr 1.5fr repeat(2, 1fr);
   &-nav{
     background-color: blueviolet;
-    grid-column:1/5 ;
+    grid-column:1/5;
   }
   &-item1{
     background-color: brown;
-    
+    grid-row: 2/5;
   }
   &-item2{
     background-color: burlywood;
@@ -38,11 +38,14 @@
   }
   &-item6{
     background-color: darkolivegreen;
+    grid-column: 2/4;
   }
   &-item7{
     background-color: dimgray;
   }
   &-itemFooter{
     background-color: #000;
+    padding: 2rem;
+    grid-column: 1/5;
   }
 }
